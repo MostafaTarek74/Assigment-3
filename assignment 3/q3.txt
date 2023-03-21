@@ -1,0 +1,6 @@
+public static void sort(ArrayList<Integer> list) {
+    if (list == null || list.size() == 0) {
+        return;
+    }
+    Collections.sort(list);
+}
